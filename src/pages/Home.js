@@ -1,24 +1,21 @@
-import React from 'react';
-import { useState } from 'react';
-import {Box} from '@mui/material';
-import Herobanner from '../components/Herobanner';
-import SearchExercises from '../components/SearchExercises';
+import React, { useState } from 'react';
+import { Box } from '@mui/material';
+
 import Exercises from '../components/Exercises';
+import SearchExercises from '../components/SearchExercises';
+import HeroBanner from '../components/HeroBanner';
 
 const Home = () => {
-  //we use body part and exercise useState here the changes will be reflected in the whole page 
-  const [bodyPart, setBodyPart] = useState("all");
   const [exercises, setExercises] = useState([]);
-  return (
-    <div>
-      <Box> 
-        <Herobanner />
-        <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart}/>
-        <Exercises setExercises={setExercises} bodyPart={bodyPart} exercises={exercises} />
-      </Box>
-      
-    </div>
-  )
-}
+  const [bodyPart, setBodyPart] = useState('all');
 
-export default Home
+  return (
+    <Box>
+      <HeroBanner />
+      <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
+      <Exercises setExercises={setExercises} exercises={exercises} bodyPart={bodyPart} />
+    </Box>
+  );
+};
+
+export default Home;
