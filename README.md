@@ -2,6 +2,10 @@
 
 Welcome to the Gym Website project! This React-based website showcases a gym's services, classes, trainers, and contact details.
 
+## Live Website 
+
+https://goldsgym24.netlify.app/
+
 ## Features
 
 - **Home**: Overview of the gym.
