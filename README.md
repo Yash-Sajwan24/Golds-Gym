@@ -1,4 +1,4 @@
-# Gym Website
+# Gold's Gym
 
 Welcome to the Gym Website project! This React-based website showcases a gym's services, classes, trainers, and contact details.
 
