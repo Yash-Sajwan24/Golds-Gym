@@ -1,6 +1,11 @@
 # Gold's Gym
+It showcases a gym's services, classes, trainers, and contact details.
 
-Welcome to the Gym Website project! This React-based website showcases a gym's services, classes, trainers, and contact details.
+- **Exercise Categories**: Choose muscle groups.
+- **Extensive Library**: 1000+ exercises with examples.
+- **Pagination**: Easy navigation.
+- **Exercise Details**: Step-by-step instructions and videos.
+- **YouTube Integration**: Related videos.
 
 ## Live Website 
 
@@ -13,13 +18,6 @@ https://goldsgym24.netlify.app/
 - **Trainers**: Profiles with specialties.
 - **Contact**: Form and contact info.
 
-## User Experience
-
-- **Exercise Categories**: Choose muscle groups.
-- **Extensive Library**: 1000+ exercises with examples.
-- **Pagination**: Easy navigation.
-- **Exercise Details**: Step-by-step instructions and videos.
-- **YouTube Integration**: Related videos.
 
 ## RapidAPI Integration
 
